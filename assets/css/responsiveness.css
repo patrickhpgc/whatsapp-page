@@ -1,0 +1,100 @@
+@media screen and (max-width: 1000px) {
+
+    section:not(.section-whois) {
+        padding: 32px;
+    }
+
+    footer {
+        padding: 16px;
+    }
+
+    .section-whois {
+        padding-top: 32px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .section-header .stopwatch-top .item {
+
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .section-presentation .section-presentation--video {
+        width: 100%;
+    }
+
+    .section-whathappen .main-bottom {
+        flex-direction: column;
+    }
+
+    .section-whathappen .main-img {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .section-whois .section-whoisarea--main {
+        flex-direction: column-reverse;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+
+    .section-header .section-header--stopwatch {
+        width: 224px;
+    }
+
+    .h2-rubik {
+        font-size: 20px;
+    }
+
+    .section-header .stopwatch-top .item {
+        width: 40px;
+        height: 40px;
+    }
+
+    .section-header .section-header--avatarname{
+            width: 100%;
+    }
+    .section-header .section-header--avatarname h1{
+            font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+
+    .h1 {
+        font-size: 37px;
+    }
+
+    .h2 {
+        font-size: 22px;
+    }
+
+    .h2-regular {
+        font-size: 20px;
+    }
+
+    section:not(.section-whois) {
+        padding: 16px;
+    }
+
+    .section-whois {
+        padding-top: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+}
+
+@media screen and (max-height: 600px) {
+
+    .section-header--avatar img {
+        width: 70vw;
+    }
+
+}

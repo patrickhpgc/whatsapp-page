@@ -1,0 +1,335 @@
+/* Header */
+header {
+    width: 100%;
+    max-width: 100vw;
+}
+
+.section-header {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(180deg, var(--red-transparent), var(--red));
+}
+
+.section-header .section-header--title {
+    margin-top: 32px;
+}
+
+.section-header .section-header--content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section-header .section-header--stopwatch {
+    display: flex;
+    flex-direction: column;
+    width: 424px;
+    margin: auto;
+    margin-top: 16px;
+}
+
+.section-header .stopwatch-top,
+.section-header .stopwatch-bottom {
+    display: flex;
+}
+
+.section-header .stopwatch-top .item {
+    width: 90px;
+    height: 90px;
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+    color: var(--red);
+}
+
+.section-header .stopwatch-bottom .item {
+    width: 90px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 8px;
+    color: var(--white);
+}
+
+.section-header .section-header--desc {
+    margin-top: 32px;
+}
+
+.section-header .section-header--desc,
+.section-header--title {
+    text-transform: uppercase;
+    color: var(--red);
+    text-align: center;
+}
+
+.section-header--avatararea {
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    right: 0;
+    left: 0;
+}
+
+.section-header--avatar {
+    display: flex;
+    justify-content: center;
+}
+
+.section-header--avatar img {
+    width: 60vh;
+    height: auto;
+    max-width: 100%;
+}
+
+.section-header .section-header--avatarname {
+    width: 384px;
+    height: 64.8px;
+    position: absolute;
+    bottom: -13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header .section-header--avatarname img {
+    max-width: 100%;
+}
+
+.section-header .section-header--avatarname h1 {
+    position: absolute;
+    color: var(--white);
+}
+
+
+/* Section button */
+.section-button {
+    display: flex;
+    justify-content: center;
+}
+
+.section-button .container {
+    margin: 128px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    text-transform: uppercase;
+    padding: 8px 32px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.btn-red {
+    color: var(--white);
+    background-color: var(--red);
+    box-shadow: 1px 3px 2px #440E1A;
+}
+
+.btn-yellow {
+    color: var(--red);
+    background-color: var(--white);
+    box-shadow: 1px 3px 2px #FFF;
+}
+
+/* Section Presentation */
+.section-presentation {
+    display: flex;
+    justify-content: center;
+    background-color: var(--red);
+}
+
+.section-presentation .section-presentationarea {
+    margin: 128px 0;
+}
+
+.section-presentation .section-presentation--title h1 {
+    color: var(--white);
+    text-align: center;
+}
+
+.section-presentation .section-presentation--video {
+    width: 80%;
+    margin: auto;
+    margin-top: 64px;
+}
+
+.section-presentation .videoarea {
+    position: relative;
+    height: 0;
+    background-color: rgba(100, 100, 100, 0.9);
+    border-radius: 50px;
+    padding: 0px 0px 56.25%;
+}
+
+.section-presentation .videoarea iframe {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+.section-presentation .section-presentation--list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-presentation .section-presentation--listarea {
+    margin-top: 64px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.section-presentation .section-presentation--listarea h2 {
+    color: var(--white);
+    padding-left: 64px;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.section-presentation .section-presentation--listarea h2::before {
+    content: '';
+    background-image: url('../images/star.png');
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 0;
+}
+
+.section-presentation .section-presentation--buttonarea {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+/* Section What happen */
+.section-whathappen .section-whathappenarea {
+    margin: 128px 0;
+}
+
+.section-whathappen {
+    display: flex;
+    justify-content: center;
+}
+
+.section-whathappen h1 {
+    color: var(--red);
+    text-align: center;
+}
+
+.section-whathappen .section-whathappen--main h2 {
+    color: var(--grey);
+    margin-top: 32px;
+}
+
+.section-whathappen .main-bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-whathappen .main-img img {
+    max-width: 100%;
+}
+
+.section-whathappen .main-img {
+    width: 100px;
+    padding: 32px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.section-whathappen .main-desc {
+    padding: 32px;
+    flex: 2;
+}
+
+.section-whathappen .main-desc h2 {
+    margin-bottom: 32px;.
+}
+
+.section-whathappen .h2-red {
+    color: var(--red);
+}
+
+.section-whathappen .section-whathappen--buttonarea {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+/* Section Who is */
+.section-whois {
+    display: flex;
+    justify-content: center;
+    background-color: var(--red);
+    color: var(--white);
+}
+
+.section-whois .section-whoisarea {
+    margin-top: 128px;
+}
+
+.section-whois .section-whoisarea--title {
+    text-align: center;
+}
+
+.section-whois .section-whoisarea--main {
+    margin-top: 64px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.section-whois .main-img {
+    flex: 1;
+    margin-right: 64px;
+}
+
+.section-whois .main-img img {
+    max-width: 100%;
+    margin-bottom: -4px;
+}
+
+.section-whois .main-desc {
+    flex: 2;
+}
+
+.section-whois .main-desc h2 {
+    margin-bottom: 32px;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: var(--grey);
+    color: var(--white);
+}
+
+footer .footer-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0;
+}
+
+footer .footer-area p {
+    margin: 8px 0;
+}

@@ -1,0 +1,91 @@
+:root{
+	/*Colors*/
+	--white: #FFF;
+    --red: #671818;
+    --red-transparent: rgba(103, 24, 24, 0.2);
+    --yellow: #E3E631;
+    --grey: #4F4F4F;
+}
+
+*{
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+	font-family: Arial, Sans-serif;
+    overflow-x: hidden;
+}
+
+html{
+	font-size: 16px;
+}
+
+a{
+	text-decoration: none;
+	color: var(--white);
+}
+
+blockquote{
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1000px;
+    max-width: 100%;
+}
+
+/* Text formats */
+.h1{
+    font-weight: Montserrat-Bold;
+    font-size: 48px;
+}
+
+.h1-2 {
+    font-weight: Roboto-Bold;
+    font-size: 36px;
+}
+
+.h2 {
+    font-weight: Spartan-Bold;
+    font-size: 24px;
+}
+
+.h2-rubik {
+    font-weight: Rubik-Bold;
+    font-size: 36px;
+}
+
+.h2-regular {
+    font-weight: Roboto-Regular;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.p-regular {
+    font-weight: Roboto-Regular;
+    font-size: 14px;
+}
